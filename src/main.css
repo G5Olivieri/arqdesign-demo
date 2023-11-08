@@ -1,0 +1,114 @@
+:root {
+
+    --dl-color-primary-100: #003EB3;
+    --dl-color-primary-300: #0074F0;
+    --dl-color-primary-500: #14A9FF;
+    --dl-color-primary-700: #85DCFF;
+
+    --dl-color-secondary-gray400: #EFF0F2;
+    --dl-color-secondary-gray500: #D9D9D9;
+
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-color-gray-500: #595959;
+    --dl-color-gray-700: #999999;
+    --dl-color-gray-800: #595959;
+    --dl-color-gray-900: #D9D9D9;
+
+    --dl-color-primary1-blue60: #E2DDF5;
+    --dl-color-primary1-blue80: #5228F5;
+    --dl-color-primary1-blue100: #291477;
+
+    --dl-color-danger-300: #A22020;
+    --dl-color-danger-500: #BF2626;
+    --dl-color-danger-700: #E14747;
+
+    --dl-space-space-oneandhalfunits: 8px;
+    --dl-space-space-unit: 16px;
+    --dl-space-space-twounits: 32px;
+    --dl-space-space-threeunits: 48px;
+    --dl-space-space-fourunits: 64px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-sixunits: 96px;
+    
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+    --dl-radius-radius-round: 50%;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--dl-color-gray-white);
+    color: var(--dl-color-gray-black);
+    border-radius: var(--dl-radius-radius-radius4);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding: 0.5rem 1rem;
+}
+
+.heading1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 2.5rem;
+}
+
+.heading3 {
+    font-size: 1.8rem;
+}
+
+.heading4 {
+    font-size: 1.2rem;
+}
+
+.input {
+    background-color: var(--dl-color-gray-white);
+    color: var(--dl-color-gray-black);
+    border-radius: var(--dl-radius-radius-radius4);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding: 0.5rem 1rem;   
+    cursor: auto;
+}
+
+.list {
+    display: block;;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 1em 0px 1em 0px;
+    padding: 0px 0px 0px 1.5rem;
+    width: 100%;
+}
+
+.list-item {
+    display: list-item;
+}
+
+.sectionTitle {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1.2;
+    text-transform: uppercase;
+}
+
+.teleport-show {
+    display: flex !important;
+    transform: none !important;
+}
+
+.textarea {
+    background-color: var(--dl-color-gray-white);
+    color: var(--dl-color-gray-black);
+    border-color: var(--dl-color-gray-black);
+    border-radius: var(--dl-radius-radius-radius4);
+    border-width: 1px;
+    padding: 0.5rem;   
+    cursor: auto;
+}
